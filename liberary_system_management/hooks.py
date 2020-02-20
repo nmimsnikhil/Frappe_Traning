@@ -11,6 +11,11 @@ app_color = "grey"
 app_email = "nikhil@bloomstack.com"
 app_license = "MIT"
 
+# for desk css
+app_include_css = ["/public/css/custom_app.min.css"]
+# for web css
+web_include_css = ["/public/css/custom_app.min.css"]
+
 # Includes in <head>
 # ------------------
 

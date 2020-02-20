@@ -1,5 +1,7 @@
 {
  "actions": [],
+ "allow_guest_to_view": 1,
+ "autoname": "PRE.#####",
  "creation": "2020-02-17 18:15:39.848490",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -73,7 +75,7 @@
  "has_web_view": 1,
  "is_published_field": "is_publish",
  "links": [],
- "modified": "2020-02-19 12:27:21.397517",
+ "modified": "2020-02-20 16:43:10.072995",
  "modified_by": "Administrator",
  "module": "Liberary Management",
  "name": "Article",
@@ -106,5 +108,6 @@
  "route": "article",
  "sort_field": "modified",
  "sort_order": "DESC",
+ "title_field": "article_name",
  "track_changes": 1
 }

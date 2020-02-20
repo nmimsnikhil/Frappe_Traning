@@ -5,10 +5,11 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "first_name",
-  "last_name",
+  "first_name",]]]]]]]]]]]]]]]]]
   "email",
-  "phone",
+  "phone",]]]]]]]]]]
+  
+  "last_name",
   "address"
  ],
  "fields": [
@@ -47,7 +48,7 @@
   }
  ],
  "links": [],
- "modified": "2020-02-18 14:50:59.675605",
+ "modified": "2020-02-20 11:12:51.909614",
  "modified_by": "Administrator",
  "module": "Liberary Management",
  "name": "Library Member",
@@ -77,6 +78,7 @@
   }
  ],
  "quick_entry": 1,
+ "search_fields": "first_name,last_name",
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1
