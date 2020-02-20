@@ -1,0 +1,103 @@
+{
+ "accept_payment": 0,
+ "allow_comments": 0,
+ "allow_delete": 0,
+ "allow_edit": 0,
+ "allow_incomplete": 0,
+ "allow_multiple": 0,
+ "allow_print": 0,
+ "amount": 0.0,
+ "amount_based_on_field": 0,
+ "button_label": "Save",
+ "creation": "2020-02-19 12:12:09.043912",
+ "doc_type": "Library Member",
+ "docstatus": 0,
+ "doctype": "Web Form",
+ "idx": 0,
+ "is_standard": 1,
+ "login_required": 0,
+ "max_attachment_size": 0,
+ "modified": "2020-02-19 12:15:49.516022",
+ "modified_by": "Administrator",
+ "module": "Liberary Management",
+ "name": "library-member",
+ "owner": "Administrator",
+ "payment_button_label": "Buy Now",
+ "published": 1,
+ "route": "library-member",
+ "route_to_success_link": 0,
+ "show_attachments": 0,
+ "show_in_grid": 0,
+ "show_sidebar": 1,
+ "sidebar_items": [
+  {
+   "enabled": 1,
+   "route": "devarsh",
+   "title": "Devarsh"
+  }
+ ],
+ "success_url": "/library-member",
+ "title": "Library Member",
+ "web_form_fields": [
+  {
+   "allow_read_on_all_link_options": 0,
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "hidden": 0,
+   "label": "first_name",
+   "max_length": 0,
+   "max_value": 0,
+   "read_only": 0,
+   "reqd": 1,
+   "show_in_filter": 0
+  },
+  {
+   "allow_read_on_all_link_options": 0,
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "hidden": 0,
+   "label": "last_name",
+   "max_length": 0,
+   "max_value": 0,
+   "read_only": 0,
+   "reqd": 1,
+   "show_in_filter": 0
+  },
+  {
+   "allow_read_on_all_link_options": 0,
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "hidden": 0,
+   "label": "email",
+   "max_length": 0,
+   "max_value": 0,
+   "read_only": 0,
+   "reqd": 1,
+   "show_in_filter": 0
+  },
+  {
+   "allow_read_on_all_link_options": 0,
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "hidden": 0,
+   "label": "phone",
+   "max_length": 0,
+   "max_value": 0,
+   "read_only": 0,
+   "reqd": 1,
+   "show_in_filter": 0
+  },
+  {
+   "allow_read_on_all_link_options": 0,
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "hidden": 0,
+   "label": "address",
+   "max_length": 0,
+   "max_value": 0,
+   "read_only": 0,
+   "reqd": 0,
+   "show_in_filter": 0
+  }
+ ]
+}

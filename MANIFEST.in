@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include liberary_system_management *.css
+recursive-include liberary_system_management *.csv
+recursive-include liberary_system_management *.html
+recursive-include liberary_system_management *.ico
+recursive-include liberary_system_management *.js
+recursive-include liberary_system_management *.json
+recursive-include liberary_system_management *.md
+recursive-include liberary_system_management *.png
+recursive-include liberary_system_management *.py
+recursive-include liberary_system_management *.svg
+recursive-include liberary_system_management *.txt
+recursive-exclude liberary_system_management *.pyc
